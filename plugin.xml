@@ -76,6 +76,9 @@
 	    <config-file target="*-Info.plist" parent="NSHealthUpdateUsageDescription">
 		<string>Access to HealthKit store is required for unified the view on your activity and health</string>
 	</config-file>
+	<config-file parent="NSMotionUsageDescription" target="*-Info.plist">
+        	<string>Device motion updates help determine when the device is stationary so the app can save power by turning off location-updates</string>
+        </config-file>
     </platform>
     
 </plugin>
