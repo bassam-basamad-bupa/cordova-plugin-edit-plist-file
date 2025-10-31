@@ -78,9 +78,7 @@
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription" mode="overwrite">
 		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
 	</config-file>        
-      <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription" mode="overwrite">
-		<string>We access the microphone so member can record his voice for the doctor explaining his symptoms during booking the teleconsultation with the doctor</string>
-	</config-file>       
+      
 	   <config-file target="*-Info.plist" parent="ADEUM_Settings" mode="overwrite">
 		    <key>ADEUM_Settings</key>
 		      <dict>
